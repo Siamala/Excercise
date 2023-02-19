@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 
-namespace Excercise_2
+namespace PPTA_Excercises.Excercise_2.EmployeeManagement
 {
     public class EmployeeRepository : IEmployeeRepository
     {
@@ -51,14 +51,14 @@ namespace Excercise_2
 
         protected virtual void Dispose(bool disposing)
         {
-            if (!this.disposed)
+            if (!disposed)
             {
                 if (disposing)
                 {
                     _context.Dispose();
                 }
             }
-            this.disposed = true;
+            disposed = true;
         }
 
         public void Dispose()

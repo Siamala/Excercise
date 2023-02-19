@@ -1,9 +1,8 @@
-﻿using Excercise_2;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 
-namespace Excercise_2
+namespace PPTA_Excercises.Excercise_2.EmployeeManagement
 {
     public partial class EmployeeDBContext : DbContext
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Excercise_2
+namespace PPTA_Excercises.Excercise_2.EmployeeManagement
 {
     public interface IEmployeeRepository
     {
