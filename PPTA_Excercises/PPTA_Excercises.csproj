@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Excercise_2\Authenticator\" />
     <Folder Include="Excercise_3\" />
     <Folder Include="Excercise_4\" />
   </ItemGroup>
