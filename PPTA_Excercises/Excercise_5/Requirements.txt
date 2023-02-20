@@ -1,0 +1,5 @@
+﻿Build Video Rental program acc to following requirements
+1. Price for first rental day of standard movie is 1,5 zł. For every rental day 1 regular customer point is assigned.
+2. Second and thrid rental day of standard movie is free and no regular customer points are assigned
+3. For every next rental day 1,5 zł is charged and 1 regular customer point is assigned
+4. Movies for childs are rented for 1 zł per day and 1 regular customer point is assigned for a movie
