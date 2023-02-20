@@ -1,1 +1,3 @@
-﻿
+﻿Write unit tests for PriceCalculator public method.
+What makes impossible to write robust unit test for this method?
+Propose a solution to make PriceCalculator unit testable.

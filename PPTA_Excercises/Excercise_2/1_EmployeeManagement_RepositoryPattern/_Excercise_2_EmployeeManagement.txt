@@ -1,1 +1,2 @@
-﻿
+﻿Write tests for public methods in EmployeeRepository.
+Mock IEmployeeRepository.
