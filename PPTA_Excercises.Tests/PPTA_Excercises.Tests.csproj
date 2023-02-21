@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CSharpFunctionalExtensions" Version="2.37.0" />
+    <PackageReference Include="FluentAssertions" Version="6.10.0" />
+    <PackageReference Include="FluentAssertions.CSharpFunctionalExtensions" Version="1.0.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
@@ -20,11 +23,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Excercise_1\" />
     <Folder Include="Excercise_3\" />
     <Folder Include="Excercise_4\" />
     <Folder Include="Excercise_5\" />
     <Folder Include="Excercise_2\" />
-    <Folder Include="Excercise_1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PPTA_Excercises\PPTA_Excercises.csproj" />
   </ItemGroup>
 
 </Project>

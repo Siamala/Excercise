@@ -142,7 +142,7 @@ namespace Excercise_1
             return matchedElementsOverallLength == input.Length;
         }
 
-        private static byte[] HexStringWithSeparatorToByteArray(string input, char separator)
+        public static byte[] HexStringWithSeparatorToByteArray(string input, char separator)
         {
             return Array.ConvertAll(input.Replace("0x", "").Split(separator).RemoveEmptyElements(),
                                            s => byte.Parse(s, System.Globalization.NumberStyles.HexNumber));
