@@ -1,9 +1,5 @@
 ﻿using PPTA_Excercises.Excercise_2.EmployeeManagement;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PPTA_Excercises.Tests.Excercise_2._1_EmployeeManagement.Data
 {
