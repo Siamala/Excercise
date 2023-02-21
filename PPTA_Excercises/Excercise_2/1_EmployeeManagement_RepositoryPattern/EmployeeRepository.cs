@@ -23,30 +23,35 @@ namespace PPTA_Excercises.Excercise_2.EmployeeManagement
         {
             return _context.Employees.ToList();
         }
-
-        public Employee GetById(int EmployeeID)
+        
+        public Employee GetById(int employeeID)
         {
-            return _context.Employees.Find(EmployeeID);
+            return _context.Employees.Find(employeeID);
         }
 
         public void Insert(Employee employee)
         {
             _context.Employees.Add(employee);
+            Save();
         }
+
         public void Update(Employee employee)
         {
             _context.Entry(employee).State = EntityState.Modified;
-        }
-        public void Delete(int EmployeeID)
-        {
-            Employee employee = _context.Employees.Find(EmployeeID);
-            _context.Employees.Remove(employee);
+            Save();
         }
 
-        public void Save()
+        public void Delete(int employeeID)
+        {
+            _context.Employees.Remove(GetById(employeeID));
+            Save();
+        }
+
+        private void Save()
         {
             _context.SaveChanges();
         }
+
         private bool disposed = false;
 
         protected virtual void Dispose(bool disposing)
