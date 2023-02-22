@@ -25,7 +25,9 @@
         /// <returns></returns>
         public bool Submit(string userName, string password)
         {
-            if (authenticator.Authenticate(userName, password))
+            bool? authenticateResult = authenticator.Authenticate(userName, password);
+
+            if (authenticateResult != null && authenticateResult.Value)
             {
                 return true;
             }

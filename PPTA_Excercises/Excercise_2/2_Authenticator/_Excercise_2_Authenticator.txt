@@ -1,6 +1,6 @@
 ﻿Write test cases for LoginDialog.cs using correct fake object for IAuthenticator interface:
 1. Test if dialog closes successfully before user name and password are submitted. Use dummy authenticator
-2. Test if Submit returns false when wrong user name and password are provided and true when credenitals are correct. Use dummy authenticator
+2. Test if Submit returns false when wrong user name and password are provided and true when credenitals are correct. Use stub authenticator
 3. Test if LoginDialog correctly invokes authenticator class:
 authenticator should only be invoked once and should have the user name and password passed to the Submit method. Use authenticator spy
 4. Assume some expectedUserName and expectedPassword and test if LoginDialog correctly invokes Authenticator like in previous test
