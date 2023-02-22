@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PPTA_Excercises.Excercise_4.Stack
 {
-    internal class Stack
+    public class Stack
     {
     }
 }
