@@ -1,1 +1,8 @@
 ﻿Write Stack implementation using TDD
+
+Requirements:
+1. Stack has a method to check if it is empty
+2. Stack has a method Push and Pop. Push adds values to Stack, Pop takes them from Stack
+3. Stack implements LIFO queue
+4. Stack has a mechanizm of underflow and overflow
+5. Stack has a method to count actual quantity of objects
