@@ -30,7 +30,6 @@
     <Folder Include="Excercise_2\3_PriceCalculator\" />
     <Folder Include="Excercise_3\" />
     <Folder Include="Excercise_4\1_Stack\" />
-    <Folder Include="Excercise_4\2_Factors\" />
     <Folder Include="Excercise_5\" />
   </ItemGroup>
 

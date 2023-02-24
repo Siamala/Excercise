@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace PPTA_Excercises.Excercise_4._2_Factors
 {
-    internal class Math
+    public class Math
     {
-        static List<int> FactorsOf(int number)
+        public static int[] FactorsOf(int number)
         {
             throw new NotImplementedException();
         }
